@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             toastMsg = this.email.getText().toString() + " has Logged In Successfully";
             Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
         } else {
-            toastMsg = "Email or Passowrd is Incorrect!";
+            toastMsg = "Email or Passowrd is Invalid!";
             Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
         }
     }
