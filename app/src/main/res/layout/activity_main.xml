@@ -64,9 +64,6 @@
                         android:textColor="@color/colorWhite"/>
 
                     <EditText
-                        android:id="@+id/et_email"
-                        android:maxLines="1"
-                        android:inputType="text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:background="@drawable/et_bg"
@@ -75,7 +72,6 @@
                         android:fontFamily="sans-serif-light"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
-                        android:textColor="@color/colorWhite"
                         />
                 </LinearLayout>
 
@@ -95,9 +91,6 @@
                         android:textColor="@color/colorWhite"/>
 
                     <EditText
-                        android:id="@+id/et_password"
-                        android:maxLines="1"
-                        android:inputType="textPassword"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:background="@drawable/et_bg"
@@ -106,14 +99,12 @@
                         android:fontFamily="sans-serif-light"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
-                        android:textColor="@color/colorWhite"
                         />
                 </LinearLayout>
 
             </LinearLayout>
 
             <Button
-                android:id="@+id/btn_login"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_below="@id/section1"
