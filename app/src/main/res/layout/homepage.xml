@@ -72,13 +72,19 @@
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <FrameLayout
-        android:id="@+id/frame_layout_maps"
-        android:layout_width="395dp"
-        android:layout_height="388dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="133dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
 
-
-
+        <FrameLayout
+            android:id="@+id/frame_layout_maps"
+            android:layout_width="411dp"
+            android:layout_height="440dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="133dp"/>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
